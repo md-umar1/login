@@ -1,0 +1,107 @@
+body{
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 1440px;
+    height: 1024px;
+
+}
+.google-button{
+    display: flex;
+height: 30px;
+margin-left: 10px;
+padding: 16px 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: 10px;
+border: 1px solid #E6E8E7;
+background: #FFF;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.03);
+width:410px;
+color: #232323;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 21.6px */
+letter-spacing: -0.18px;
+}
+.google{
+    display: flex;
+width: 24px;
+height: 24px;
+padding: 3.5px;
+justify-content: center;
+align-items: center;
+}
+.sn{
+    color: #969696;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+.icon{
+    margin-bottom: 136px;
+    margin-left: -60px;
+    display: flex;
+align-items: center;
+gap: 12px;
+width: 32px;
+height: 32px;
+color: #232323;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 26.4px */
+letter-spacing: -0.96px;
+}
+.textfield{
+    /* display: flex; */
+width: 399px;
+padding: 16px;
+align-items: center;
+gap: 20px;
+}
+.signin-btn{
+    display: flex;
+    height: 40px;
+padding: 16px 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+width: 399px;
+padding: 16px;
+align-items: center;
+gap: 20px;
+border-radius: 10px;
+background: #367AFF;
+}
+
+
+.googlesign{
+    height: 40px;
+    padding: 16px 8px;
+    /* align-items: center; */
+    gap: 8px;
+    align-self: stretch;
+    width: 399px;
+    padding: 16px;
+    align-items: center;
+    border-radius: 10px;
+    color:black;
+border: 1px solid #E6E8E7;
+background-color: #FFF;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.03); 
+}
+.auth{
+    width: 430px;
+    margin-right: 20px;
+}
