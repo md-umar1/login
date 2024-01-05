@@ -50,6 +50,92 @@ const App = () => {
 
 export default App;
 
+#App.css
+body {
+  display: flex;
+  width: 1440px;
+  height: 1024px;
+  align-items: flex-start;
+}
+
+.app-container {
+  display: flex;
+  flex: 1;
+}
+
+.forms-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.image-display {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-display img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Add your additional styles for the .google-button, .auth-form, .signin-link, etc. */
+#outlined-basic{
+  display: flex;
+width: 399px;
+padding: 16px;
+align-items: center;
+gap: 2px;
+}
+.sign-up{
+  width: 430px;
+  display: flex;
+  padding: 16px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+border-radius: 10px;
+background: #367AFF;
+color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 21.6px */
+letter-spacing: -0.18px;
+}
+
+
+.or{
+  display: flex;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+margin-left:15px ;
+margin-right: 15px;
+color: #6E6E6E;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+
+
+}
+
+
+.img{
+  width: 825px;
+  height: 1000px;
+}
+
 
 
 #LoginForm.js
